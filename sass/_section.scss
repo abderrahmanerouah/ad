@@ -1,0 +1,76 @@
+@import "variables";
+.what__the__different {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 83px;
+    p {margin-top: 28px;
+    color: $darkGrayishBlue;}  
+    h5 {margin-top: 36px;
+    color: $darkBlue;}  
+    @media (max-width: 375px) {
+        text-align: center;
+        
+        
+    }
+    
+}
+.what__the__different__title__first {
+    // max-width: 494px;
+    width: 50%;
+    margin-top: 27px;
+    @media (max-width: 375px) {
+        width: 100%;
+        font-size: 64px;
+        p{
+            padding: 30px;
+        }
+    }
+}
+
+.what__the__the__diffrent__second {
+    // max-width: 595px;
+    width: 50%;
+    @media (max-width: 375px) {
+          font-size: 64px;
+          width: 87%;
+          margin-top: 110px;
+          h5 {
+              background-color:hsl(12, 80%, 90%);
+              margin-top: 50px;
+              margin-left: -60px;
+              padding:0px 10px 20px 80px;
+              width: 1000px;
+          }
+          .all {width: 1106px !important;
+        button {
+            padding: 30px 48px !important;
+            border-radius: 45px !important;
+            font-size: 30px;
+            position: relative;
+            z-index: 20;
+        }
+        }
+    
+}
+.all {
+    display: flex;
+    width: 689px;
+    button {background-color: $brightRed;
+    padding:4px 13px ;
+    border-radius: 20px;
+    color: $veryPaleRed;
+    border: none;
+    
+    
+    }
+}
+.Advanced-title{
+    display: inline-block;
+
+}
+.bt {
+    margin: 31px;
+}
+
+}

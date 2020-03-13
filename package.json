@@ -1,0 +1,27 @@
+{
+  "name": "js_mini_projects",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yocho1/Js_Mini_Projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yocho1/Js_Mini_Projects/issues"
+  },
+  "homepage": "https://github.com/yocho1/Js_Mini_Projects#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "dependencies": {
+    "lax.js": "^1.2.5",
+    "sal.js": "^0.7.4",
+    "scrollreveal": "^4.0.5"
+  }
+}
